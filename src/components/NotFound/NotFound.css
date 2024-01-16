@@ -1,0 +1,13 @@
+.notfoundtitle > .text {
+  font-size: var(--main-title-font-size);
+  font-weight: var(--main-text-font-weight);
+  height: 36px;
+  color: var(--main-title-color);
+}
+
+.notfoundtitle {
+  background-color: var(--main-bg-color);
+  width: 100dvw;
+  height: 100dvh;
+  padding: 41px 95px 0px 71px;
+}

@@ -1,0 +1,28 @@
+.pageswitcher {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 32px;
+}
+
+.pageswitcher > .text {
+  color: var(--pageswitcher-text-color);
+  font-size: var(--main-text-font-size);
+  font-weight: var(--main-text-font-weight);
+}
+
+.pageswitcher > .btngroup {
+  margin-right: 75px;
+}
+
+.pageswitcher > .btngroup > button {
+  margin-right: 12px;
+  width: 24px;
+  height: 24px;
+  border-radius: 4px;
+  border: 1px solid var(--pageswitcher-buttons-border-color);
+  background-color: var(--pageswitcher-buttons-bg-color);
+  color: var(--pageswitcher-buttons-color);
+  font-size: var(--pageswitcher-buttons-font-size);
+  font-weight: var(--main-text-font-weight);
+}

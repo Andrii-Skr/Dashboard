@@ -1,0 +1,23 @@
+aside {
+  display: flex;
+  flex-direction: column;
+  background-color: var(--aside-bg-color);
+  min-width: 306px;
+  @media (max-width: 900px) {
+    min-width: 90px;
+  }
+}
+aside > .container {
+  margin-bottom: 40px;
+  margin-left: 39px;
+}
+
+aside > .title {
+  margin-bottom: 64px;
+  padding-left: 28px;
+  padding-top: 37px;
+}
+
+aside > .userInfo {
+  padding-left: 28px;
+}

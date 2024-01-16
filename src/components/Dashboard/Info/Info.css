@@ -1,0 +1,26 @@
+aside > .userInfo {
+  position: absolute;
+  bottom: 76px;
+  display: flex;
+  flex-direction: row;
+}
+
+aside > .userInfo > .text {
+  display: flex;
+  flex-direction: column;
+  font-size: var(--main-text-font-size);
+  font-weight: var(--main-text-font-weight);
+  margin-left: 12px;
+}
+aside > .userInfo > .text > .name {
+  color: var(--main-title-color);
+}
+aside > .userInfo > .text > .position {
+  color: var(--aside-info-position-color);
+}
+
+aside > .userInfo > .icon {
+  border-radius: 50%;
+  width: 42px;
+  height: 42px;
+}

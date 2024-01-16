@@ -1,0 +1,36 @@
+.customers > .content > .contentBox {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.customers > .content > .contentBox > .contentTitle {
+  display: flex;
+  flex-direction: column;
+}
+
+.customers > .content > .contentBox > .contentTitle > .title {
+  color: var(--main-title-color);
+  font-size: var(--content-title-font-size);
+  font-weight: var(--main-title-font-weight);
+}
+
+.customers > .content > .contentBox > .contentTitle > .text {
+  color: var(--content-title-color-second);
+  font-size: var(--main-text-font-size);
+  font-weight: var(--main-text-font-weight-regular);
+  margin-top: 7px;
+}
+.customers > .content > .contentBox > input {
+  margin-right: 53px;
+  border-radius: 10px;
+  padding: 7px 8px 7px 40px;
+  width: 216px;
+  height: 38px;
+  background: url("./img/search 1.png") no-repeat left 8px center;
+  background-color: var(--content-input-bg-color);
+  border: none;
+  font-family: "Poppins", sans-serif;
+  font-size: var(--content-input-font-size);
+  font-weight: var(--main-text-font-weight-regular);
+}

@@ -1,0 +1,50 @@
+:root {
+  font-family: "Arimo", sans-serif;
+  font-family: "Poppins", sans-serif;
+
+  --main-bg-color: rgba(250, 251, 255, 1);
+  --main-text-color: #9197b3;
+  --main-title-color: #000000;
+  --main-hover-color: #5932ea;
+
+  --main-title-font-size: 24px;
+  --main-text-font-size: 14px;
+  --main-title-font-weight: 600;
+  --main-text-font-weight: 500;
+  --main-text-font-weight-regular: 400;
+
+  --aside-hover-color: #ffffff;
+  --aside-version-color: #838383;
+  --aside-info-position-color: #757575;
+  --aside-bg-color: #ffffff;
+
+  --aside-title-font-size: 26px;
+  --aside-version-font-size: 10px;
+
+  --content-bg-color: #ffffff;
+  --content-title-font-size: 22px;
+  --content-title-color-second: #16c098;
+  --content-input-bg-color: #f9fbff;
+  --content-input-font-size: 12px;
+
+  --content-table-color: #b5b7c0;
+
+  --content-status-active-color: #008767;
+  --content-status-active-border-color: #00b087;
+  --content-status-active-bg-color: rgba(22, 192, 152, 0.38);
+  --content-line-color: #292d32;
+
+  --content-status-inactive-color: #df0404;
+  --content-status-inactive-border-color: #df0404;
+  --content-status-inactive-bg-color: #ffc5c5;
+
+  --pageswitcher-buttons-bg-color: #f5f5f5;
+  --pageswitcher-buttons-border-color: #eeeeee;
+  --pageswitcher-buttons-color: #404b52;
+  --pageswitcher-buttons-font-size: 12px;
+
+  --pageswitcher-text-color: #b5b7c0;
+}
+body {
+  margin: 0;
+}

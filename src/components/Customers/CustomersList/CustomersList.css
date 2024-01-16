@@ -1,0 +1,29 @@
+.customers > .content > .list > .active {
+  background-color: var(--content-status-active-bg-color);
+  color: var(--content-status-active-color);
+  width: 80px;
+  height: 29px;
+  font-size: var(--main-text-font-size);
+  font-weight: var(--main-text-font-weight);
+  border-radius: 4px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid var(--content-status-active-border-color);
+  margin-left: 25px;
+}
+
+.customers > .content > .list > .inactive {
+    background-color: var(--content-status-inactive-bg-color);
+  color: var(--content-status-inactive-color);
+  width: 80px;
+  height: 29px;
+  font-size: var(--main-text-font-size);
+  font-weight: var(--main-text-font-weight);
+  border-radius: 4px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid var(--content-status-inactive-border-color);
+  margin-left: 25px;
+  }

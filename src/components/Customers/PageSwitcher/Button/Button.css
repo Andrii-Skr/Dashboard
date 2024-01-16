@@ -1,0 +1,4 @@
+.pageswitcher > .btngroup > .active {
+  background-color: var(--main-hover-color);
+  color: var(--aside-hover-color);
+}

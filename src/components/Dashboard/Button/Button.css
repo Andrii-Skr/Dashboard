@@ -1,0 +1,62 @@
+.container > button {
+  position: absolute;
+  left: 0;
+  top: 0;
+  display: flex;
+  align-items: center;
+  font-weight: var(--main-text-font-weight);
+  font-size: var(--main-text-font-size);
+  background-color: var(--aside-bg-color);
+  color: var(--main-text-color);
+  border: none;
+  width: 231px;
+  height: 24px;
+}
+.container > button > .text {
+  margin-left: 14px;
+}
+.container > button > .chevron {
+  position: absolute;
+  margin-left: 215px;
+}
+.container > button > img {
+  filter: grayscale(100%);
+}
+
+.container-chevron-right {
+  display: flex;
+  justify-self: right;
+}
+.container {
+  position: relative;
+}
+
+/* .container > button:hover {
+  top: -11px;
+  z-index: 1;
+  border-radius: 8px;
+  background-color: var(--main-hover-color);
+  color: var(--aside-hover-color);
+  width: 250px;
+  height: 46px;
+  filter: grayscale(0%);
+}
+
+.container > button:hover img {
+  filter: brightness(0) invert(1);
+} */
+
+.active > button {
+  top: -11px;
+  z-index: 1;
+  border-radius: 8px;
+  background-color: var(--main-hover-color);
+  color: var(--aside-hover-color);
+  width: 250px;
+  height: 46px;
+  filter: grayscale(0%);
+}
+
+.active > button img {
+  filter: brightness(0) invert(1);
+}
