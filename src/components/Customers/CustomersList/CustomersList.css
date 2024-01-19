@@ -11,10 +11,17 @@
   justify-content: center;
   border: 1px solid var(--content-status-active-border-color);
   margin-left: 25px;
+  @media (max-width: 900px) {
+    font-size: var(--mobile-main-font-size);
+    width: calc(80px / 2);
+    height: calc(29px / 2);
+    margin-right: 30px;
+    margin-left: 0;
+  }
 }
 
 .customers > .content > .list > .inactive {
-    background-color: var(--content-status-inactive-bg-color);
+  background-color: var(--content-status-inactive-bg-color);
   color: var(--content-status-inactive-color);
   width: 80px;
   height: 29px;
@@ -26,4 +33,11 @@
   justify-content: center;
   border: 1px solid var(--content-status-inactive-border-color);
   margin-left: 25px;
+  @media (max-width: 900px) {
+    font-size: var(--mobile-main-font-size);
+    width: calc(80px / 2);
+    height: calc(29px / 2);
+    margin-left: 0;
+    margin-right: 30px;
   }
+}

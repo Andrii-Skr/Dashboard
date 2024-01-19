@@ -7,7 +7,7 @@ import PageSwitcher from "./PageSwitcher";
 import { useParams } from "react-router-dom";
 
 const Customers = () => {
-  const [customers, setCustomers] = useState<DataT[]>(data);
+  const [customers] = useState<DataT[]>(data);
   const { id } = useParams();
 
   const minPage = Number(id) * 8 - 8;
@@ -27,7 +27,7 @@ const Customers = () => {
           <span>Status</span>
         </div>
         {customers.map((e, i) => {
-          if (minPage <= i && i <= maxPage-1) {
+          if (minPage <= i && i <= maxPage - 1) {
             return <CustomersList key={e.id} list={e} />;
           }
         })}

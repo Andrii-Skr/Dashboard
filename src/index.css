@@ -44,6 +44,9 @@
   --pageswitcher-buttons-font-size: 12px;
 
   --pageswitcher-text-color: #b5b7c0;
+
+  --mobile-main-title-font-size: 0.7em;
+  --mobile-main-font-size: 0.6em;
 }
 body {
   margin: 0;

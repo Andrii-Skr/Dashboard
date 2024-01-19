@@ -1,9 +1,11 @@
 import { useLocation, useNavigate } from "react-router-dom";
 import "./Button.css";
+import { useMediaQuery } from "@react-hook/media-query";
 
 const Button = ({ icon, chevron }: { icon: string[]; chevron?: string }) => {
   const navigate = useNavigate();
   const location = useLocation();
+  const isMobile = useMediaQuery("(max-width: 900px)");
 
   return (
     <div
@@ -15,8 +17,8 @@ const Button = ({ icon, chevron }: { icon: string[]; chevron?: string }) => {
     >
       <button onClick={() => navigate(`/${icon[0].toLocaleLowerCase()}/1`)}>
         <img src={icon[1]} className="icon" />
-        <span className="text">{icon[0]}</span>
-        {chevron ? <img src={chevron} className="chevron" /> : ""}
+        {!isMobile && <span className="text">{icon[0]}</span>}
+        {!isMobile && <>{chevron ? <img src={chevron} className="chevron" /> : ""}</>}
       </button>
     </div>
   );

@@ -3,6 +3,12 @@
   justify-content: space-between;
   align-items: center;
   margin-top: 32px;
+  @media (max-width: 900px) {
+    font-size: 0.5em;
+    flex-direction: column-reverse;
+    justify-content: left;
+    align-items: start;
+  }
 }
 
 .pageswitcher > .text {

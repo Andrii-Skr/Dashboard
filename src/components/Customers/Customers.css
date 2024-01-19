@@ -4,6 +4,11 @@
   width: 100dvw;
   height: 100dvh;
   padding: 41px 95px 0px 71px;
+  @media (max-width: 900px) {
+    min-width: 550px;
+    padding: 10px;
+    padding-top: 40px;
+  }
 }
 .customers > .content {
   background-color: var(--content-bg-color);
@@ -12,6 +17,11 @@
   border-radius: 30px;
   margin-top: 51px;
   padding: 30px 0px 0px 38px;
+  @media (max-width: 900px) {
+    padding: 0;
+    min-width: 0;
+    overflow: auto;
+  }
 }
 
 .customers > .content > .listTitle {
@@ -23,6 +33,9 @@
   font-family: var(--main-text-font-weight);
   height: 35px;
   border-bottom: 1px solid #eeeeee;
+  @media (max-width: 900px) {
+    font-size: var(--mobile-main-font-size);
+  }
 }
 
 .customers > .content > .list {
@@ -35,6 +48,12 @@
   color: var(--content-line-color);
   border-bottom: 1px solid #eeeeee;
   margin-right: 44px;
+  @media (max-width: 900px) {
+    font-size: var(--mobile-main-font-size);
+    margin-right: 0;
+    justify-content: center;
+    align-items: center;
+  }
 }
 .customers > .content > .list > span {
   display: flex;
@@ -46,4 +65,7 @@
   font-weight: var(--main-text-font-weight);
   height: 36px;
   color: var(--main-title-color);
+  @media (max-width: 900px) {
+    font-size: var(--mobile-main-title-font-size);
+  }
 }

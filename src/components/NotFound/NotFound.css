@@ -3,9 +3,12 @@
   font-weight: var(--main-text-font-weight);
   height: 36px;
   color: var(--main-title-color);
+  padding-bottom: 20px;
 }
 
 .notfoundtitle {
+  display: flex;
+  flex-direction: column;
   background-color: var(--main-bg-color);
   width: 100dvw;
   height: 100dvh;
